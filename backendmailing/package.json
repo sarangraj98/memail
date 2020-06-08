@@ -1,0 +1,29 @@
+{
+  "name": "backendmailing",
+  "version": "1.0.0",
+  "description": "api creation for mailing by using sendgrid and express js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarangraj98/memail.git"
+  },
+  "keywords": [
+    "expressjs",
+    "sendgrid",
+    "mail"
+  ],
+  "author": "Sarang Raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarangraj98/memail/issues"
+  },
+  "homepage": "https://github.com/sarangraj98/memail#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.1.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
